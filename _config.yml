@@ -1,0 +1,11 @@
+# Site settings
+title: 'marcinw::notes'
+# email: your-email@domain.com
+description: > # this means to ignore newlines until "baseurl:"
+  Hello, my name is Marcin. I code for a living.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: 'http://marcinwyszynski.github.io'
+github_username:  marcinwyszynski
+
+# Build settings
+markdown: kramdown
