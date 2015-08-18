@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Keeping a Baby quiet, or unbound methods in Ruby"
-date:   2015-08-17 22:13:28
+date:   2015-08-18 22:13:28
 categories: ruby
 ---
 As much as I find writing Python boring I often have to admit it is pretty well
