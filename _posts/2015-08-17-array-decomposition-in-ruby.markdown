@@ -2,9 +2,7 @@
 layout: post
 title:  "Array decomposition in Ruby"
 date:   2015-08-17 22:13:28
-categories: jekyll update
-tags:
-- ruby
+categories: ruby
 ---
 One of the things that impress me the most about Haskell is the combination of
 expressive power and readability afforded by its' pattern matching. As a simple
