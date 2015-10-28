@@ -94,7 +94,7 @@ main if __FILE__ == $PROGRAM_NAME
 
 There is a ton of bad things about this code, starting with a massive undocumented `main` function I would reject in code review and hash-based programming I generally despise. But it vörks... kind of. See, because it actually checks out every commit and then runs its checks on individual files it does things to your filesystem and you're heavily blocked on your IO. To give you an idea of how slow the script actually is - analysing a small repo with just 64 commits in a Docker container given one core and 4GB of RAM took 18 seconds. Which is aaaaaages in software time because - you know - computers are fast these days. I realised I was blocked on IO so I went to the store to see if they had a faster disk. They didn't. And I didn't really go to the store. I used a ramdisk instead:
 
-{% highlight shell %}
+{% highlight bash %}
 $ mkdir /mnt/ramdisk
 $ mount -t tmpfs -o size=1G tmpfs /mnt/ramdisk
 {% endhighlight %}
