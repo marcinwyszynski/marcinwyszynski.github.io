@@ -10,7 +10,7 @@ Parking `git blame` for a while - since we will return to it later - let's focus
 
 The point here is - if you keep rewriting the same piece of code over and over it probably is a testament to the ability of the person writing the original code in the first place - whether it is yourself of someone else. We can easily figure out how many lines of code any given coder committed at any given point in time (commit) using the output of `git blame`. If we compare these numbers for two adjacent commits we know whose code was deleted (and by whom). We can then aggregate those numbers to get output like this:
 
-{% highlight shell %}
+{% highlight bash %}
 +---------+-------------+------------+---------------+
 |         | Alice [148] | Bob [1447] | Charlie [736] |
 +---------+-------------+------------+---------------+
