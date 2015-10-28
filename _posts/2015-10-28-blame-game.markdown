@@ -2,7 +2,7 @@
 layout: post
 title:  "Blame game with libgit2"
 date:   2015-10-28 20:11:28
-categories: git, ruby, quality
+categories: git ruby quality
 ---
 If you've been working in the industry long enough you've probably long established that providing objective performance criteria for programmers is impossible and - if attempted - harmful. We all have our heuristics though - sometimes there is a piece of code that you discover that makes you doubt the human reason (BTW how often do you discover it's actually yours?). In one of the places I worked there was a special internal group called _Clowntown_ that was exclusively dedicated to sharing these little gems. So yes, we can established that sometimes perfectly reasonable people can agree on the quality of the code. Now if you want to make sure whether the laugh is not you you can always run `git blame` on the file.
 
